@@ -40,3 +40,36 @@ export const projects: Project[] = [
     highlight: "AI-powered budgeting assistant",
   },
 ];
+
+export const archives: Project[] = [
+  {
+    title: "KRITI-AI",
+    description: "Kriti AI is an AI-powered voice assistant system designed for the hospitality industry, enabling seamless voice interaction.",
+    techStack: ["Python", "AI", "Voice"],
+    githubUrl: "https://github.com/Mahir-bot-2003/KRITI-AI",
+  },
+  {
+    title: "Local Shell Agent",
+    description: "A lightweight Unix-like shell built from scratch in Python that supports command parsing and built-in commands.",
+    techStack: ["Python", "Shell", "OS"],
+    githubUrl: "https://github.com/Mahir-bot-2003/Local_Shell_agent",
+  },
+  {
+    title: "EDA Mule Detection",
+    description: "Exploratory Data Analysis (EDA) on financial transaction data to identify potential money laundering mule accounts.",
+    techStack: ["Jupyter Notebook", "Data Analysis", "Python"],
+    githubUrl: "https://github.com/Mahir-bot-2003/EDA-Mule-Detection",
+  },
+  {
+    title: "Fraud Detection System",
+    description: "Machine learning trial project predicting whether credit card transactions are fraudulent using classification models.",
+    techStack: ["Python", "Scikit-learn", "Machine Learning"],
+    githubUrl: "https://github.com/Mahir-bot-2003/Fraud-detection-System",
+  },
+  {
+    title: "Medical Insurance Predictor",
+    description: "Uses Linear Regression to predict medical insurance costs based on factors like age, BMI, and smoking status.",
+    techStack: ["Python", "Machine Learning", "Linear Regression"],
+    githubUrl: "https://github.com/Mahir-bot-2003/Medical-insurance",
+  }
+];
